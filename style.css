@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-size: 15pt;
+    height: 100%;
+    background-color: #dadada;
+    padding: 5px;
+}
+
+#tobeshown {
+  display: none;
+}
+
+div .head {
+  font-size: 30px;
+  text-shadow: 2px 2px 4px orange, 5px 5px 9px yellow, 8px 8px 17px #ffffcc;
+  font-weight: bolder;
+  font-variant: small-caps;
+  margin: auto;
+  text-align: center;
+}
+
+div div.body {
+  
+  background-image: url("dusk.jpg");
+  background-clip: fixed;
+  background-repeat: repeat;
+  background-size: cover;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.box {
+  color: #000;
+  background-color: rgba(230,230,230,0.75);
+  padding: 9px 6px;
+  margin: auto auto;
+ z-index: 9999;
+ text-align: center;
+ width: 75%;
+ font-size: 18px;
+}
+
+span {
+  margin: 10px auto;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+.card {
+  width: 90%;
+  padding: 8px 6px;
+  margin: 12px 2px;
+  border: 0;
+  border-radius: 10px;
+  background-clip: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.myWebsite {
+  color: #fff;
+  background-color: dodgerBlue;
+  background-image: linear-gradient(144deg, #0098FF, dodgerBlue, blue, navy);
+}
+
+.genderIdentifier {
+  color: #fff;
+  background-color: black;
+  background-image: linear-gradient(144deg,  #ff69b4 30%, #9E12D7 ,#6D07FA, #0730FA);
+  
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.card label {
+  margin-bottom: 10px;
+}
+
+
+.cardPara {
+  font-size: 13px;
+}
+
+.btnRight {
+  float: right;
+}
+
+.btnShare {
+  border: 2px solid blue;
+  color: blue;
+}
+
+.btnVisit {
+  border: 2px solid #D000FF;
+  color: #D000FF;
+}
+
+.btn {
+  padding: 4px 12px;
+  margin: 2px;
+  margin-top: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color:#F1FF7F;
+  background-image: linear-gradient(to right, #A9FF37, #EBF870, #FFDA5E);
+}
+
+#show {
+  display: none;
+}
