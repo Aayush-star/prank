@@ -3,7 +3,7 @@ var time =1;
 function myFunc() {
   
   
-const audio = new Audio('/storage/emulated/0/Crash.mp3');
+const audio = new Audio('Journey 01.mp3');
   if (time==1) {
   audio.play();
   time=0;
